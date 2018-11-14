@@ -5,8 +5,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.each do |exclaim|
-    exclaim << "!"
+  array.collect do |word|
+  word.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
